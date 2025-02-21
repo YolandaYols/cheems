@@ -1,5 +1,5 @@
 package mx.itson.cheems
-
+//Terminar función ganar y agregar  una vibración por ganar, mostrando un mensaje ¡Has ganado!
 import android.content.Context
 import android.os.Build
 import android.os.Bundle
@@ -80,6 +80,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         }
     }
+
+
 
     override fun onClick(v: View) {
         when(v.id){
